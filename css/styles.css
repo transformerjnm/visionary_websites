@@ -15,9 +15,11 @@
   background-color: var(--accent-color);
   padding: 2%;
   clip-path: ellipse(94% 61% at 28% 36%);
-  height: 50vh;
+  min-height: 50vh;
 }
-
+.logo{
+  height: 13vh;
+}
 .hero_section h1{
 
   color: var(--font-color);
@@ -29,7 +31,7 @@
 
   background-color: var(--font-color);
   color: var(--accent-color);
-
+  margin-bottom: 30px;
 }
 .card, .btn-large{
     border-radius: 15px;
@@ -62,8 +64,7 @@
 
 .our_team .card{
 
-  display: inline-block;
-  width: 100%;
+width: 100%;
 
 }
 
