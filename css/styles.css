@@ -1,4 +1,4 @@
-/*GLOBAL STYLES*/
+      /*GLOBAL STYLES*/
 :root{
   /*COLOR PALLET*/
   --accent-color: #8978A7;
@@ -8,4 +8,69 @@
   --backgroun-color: white;
   --font-color: white;
   --font-color-secondary: black;
+}
+
+      /*hero section styles*/
+
+.hero_section h1{
+
+  color: var(--accent-color);
+  text-align: center;
+
+}
+
+.hero_section .btn-large{
+
+  background-color: var(--accent-color);
+
+}
+
+.btn-large:hover{
+
+  background-color: var(--accent-color);
+
+}
+
+      /*company info styles*/
+
+.company_info h2{
+
+  color: var(--accent-color);
+
+}
+
+.company_info p{
+
+  color: var(--font-color-secondary);
+
+}
+
+      /*our team styles*/
+
+.our_team h2{
+
+  color: var(--accent-color);
+
+}
+
+.our_team .card{
+
+  display: inline-block;
+  width: 30%;
+
+}
+
+      /*projects styles*/
+
+.projects h2{
+
+  color: var(--accent-color);
+
+}
+
+.projects .card{
+
+  display: inline-block;
+  width: 30%;
+
 }
