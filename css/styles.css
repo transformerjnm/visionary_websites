@@ -11,23 +11,22 @@
 }
 
       /*hero section styles*/
+.hero_section{
+  background-color: var(--accent-color);
+  padding: 2%;
+}
 
 .hero_section h1{
 
-  color: var(--accent-color);
+  color: var(--font-color);
   text-align: center;
 
 }
 
 .hero_section .btn-large{
 
-  background-color: var(--accent-color);
-
-}
-
-.btn-large:hover{
-
-  background-color: var(--accent-color);
+  background-color: var(--font-color);
+  color: var(--accent-color);
 
 }
 
@@ -35,12 +34,15 @@
 
 .company_info h2{
 
+  text-align: center;
   color: var(--accent-color);
 
 }
 
 .company_info p{
 
+  width: 50%;
+  margin: 0 auto;
   color: var(--font-color-secondary);
 
 }
@@ -49,6 +51,7 @@
 
 .our_team h2{
 
+  text-align: center;
   color: var(--accent-color);
 
 }
@@ -56,7 +59,7 @@
 .our_team .card{
 
   display: inline-block;
-  width: 30%;
+  width: 45%;
 
 }
 
@@ -64,6 +67,7 @@
 
 .projects h2{
 
+  text-align: center;
   color: var(--accent-color);
 
 }
@@ -71,6 +75,22 @@
 .projects .card{
 
   display: inline-block;
-  width: 30%;
+  width: 45%;
+
+}
+
+      /*footer styles*/
+
+.page-footer{
+
+  background-color: var(--accent-color);
+  color: var(--font-color);
+
+}
+
+.page-footer .btn-large{
+
+  background-color: var(--font-color);
+  color: var(--accent-color);
 
 }
