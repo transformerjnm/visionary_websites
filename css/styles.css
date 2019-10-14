@@ -92,6 +92,12 @@
   clip-path: ellipse(94% 61% at 56% 72%);
 }
 
+.page-footer .center-align{
+
+  width: 40%;
+
+}
+
 .page-footer .btn-large{
 
   background-color: var(--font-color);
