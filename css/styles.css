@@ -63,7 +63,7 @@
 .our_team .card{
 
   display: inline-block;
-  width: 45%;
+  width: 100%;
 
 }
 
@@ -79,7 +79,7 @@
 .projects .card{
 
   display: inline-block;
-  width: 45%;
+
 
 }
 
@@ -92,11 +92,7 @@
   clip-path: ellipse(94% 61% at 72% 64%);
 }
 
-.page-footer .center-align{
 
-  width: 40%;
-
-}
 
 .page-footer .btn-large{
 
