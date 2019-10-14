@@ -89,7 +89,7 @@
 
   background-color: var(--accent-color);
   color: var(--font-color);
-  clip-path: ellipse(94% 61% at 56% 72%);
+  clip-path: ellipse(94% 61% at 72% 64%);
 }
 
 .page-footer .btn-large{
