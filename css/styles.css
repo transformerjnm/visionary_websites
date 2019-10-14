@@ -1,0 +1,11 @@
+/*GLOBAL STYLES*/
+:root{
+  /*COLOR PALLET*/
+  --accent-color: #8978A7;
+  --accent-two-color: #6D8C9B;
+  /*Visonary color I dont really like it but this is the color incase we use it somewhere*/
+  /*--background-color: #F5E0A9;*/
+  --backgroun-color: white;
+  --font-color: white;
+  --font-color-secondary: black;
+}
