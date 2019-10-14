@@ -14,6 +14,8 @@
 .hero_section{
   background-color: var(--accent-color);
   padding: 2%;
+  clip-path: ellipse(94% 61% at 28% 36%);
+  height: 50vh;
 }
 
 .hero_section h1{
@@ -29,7 +31,9 @@
   color: var(--accent-color);
 
 }
-
+.card, .btn-large{
+    border-radius: 15px;
+}
       /*company info styles*/
 
 .company_info h2{
@@ -85,7 +89,7 @@
 
   background-color: var(--accent-color);
   color: var(--font-color);
-
+  clip-path: ellipse(94% 61% at 56% 72%);
 }
 
 .page-footer .btn-large{
