@@ -65,7 +65,9 @@
 .our_team .card{
 
 width: 100%;
-
+}
+.our_team img{
+max-height: 300px;
 }
 
       /*projects styles*/
