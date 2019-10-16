@@ -9,11 +9,10 @@
   --font-color: white;
   --font-color-secondary: black;
 }
-
       /*hero section styles*/
 .hero_section{
   background-color: var(--accent-color);
-  padding: 2%;
+  padding: 45px;
   clip-path: ellipse(94% 61% at 28% 36%);
   min-height: 50vh;
 }
@@ -21,14 +20,10 @@
   height: 13vh;
 }
 .hero_section h1{
-
   color: var(--font-color);
   text-align: center;
-
 }
-
 .hero_section .btn-large{
-
   background-color: var(--font-color);
   color: var(--accent-color);
   margin-bottom: 30px;
@@ -36,69 +31,24 @@
 .card, .btn-large{
     border-radius: 15px;
 }
+h2 {
+ text-align: center;
+ color: var(--accent-color);
+}
       /*company info styles*/
-
-.company_info h2{
-
-  text-align: center;
-  color: var(--accent-color);
-
+.card{
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
-.company_info .card{
-
-  margin-top: 38px;
-  margin-bottom: 38px;
-
-}
-
-      /*our team styles*/
-
-.our_team h2{
-
-  text-align: center;
-  color: var(--accent-color);
-
-}
-
-.our_team .card{
-
-width: 100%;
-}
-.our_team img{
-max-height: 300px;
-}
-
-      /*projects styles*/
-
-.projects h2{
-
-  text-align: center;
-  color: var(--accent-color);
-
-}
-
-.projects .card{
-
-  display: inline-block;
-
-
-}
 
       /*footer styles*/
-
 .page-footer{
-
   background-color: var(--accent-color);
   color: var(--font-color);
   clip-path: ellipse(94% 61% at 72% 64%);
 }
-
-
-
 .page-footer .btn-large{
-
   background-color: var(--font-color);
   color: var(--accent-color);
-
 }
