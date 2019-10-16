@@ -2,13 +2,28 @@
 :root{
   /*COLOR PALLET*/
   --accent-color: #8978A7;
-  --accent-two-color: #6D8C9B;
+/*  --accent-two-color: #6D8C9B;*/
   /*Visonary color I dont really like it but this is the color incase we use it somewhere*/
   /*--background-color: #F5E0A9;*/
-  --backgroun-color: white;
+/*  --background-color: white; */
   --font-color: white;
   --font-color-secondary: black;
 }
+a{
+  color: var(--font-color-secondary);
+}
+.card, .btn-large{
+    border-radius: 15px;
+}
+h2 {
+ text-align: center;
+ color: var(--accent-color);
+}
+.card{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
       /*hero section styles*/
 .hero_section{
   background-color: var(--accent-color);
@@ -27,18 +42,7 @@
   background-color: var(--font-color);
   color: var(--accent-color);
   margin-bottom: 30px;
-}
-.card, .btn-large{
-    border-radius: 15px;
-}
-h2 {
- text-align: center;
- color: var(--accent-color);
-}
-      /*company info styles*/
-.card{
-  margin-top: 45px;
-  margin-bottom: 45px;
+  font-weight: bold;
 }
 
 
