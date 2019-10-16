@@ -27,7 +27,6 @@ h2 {
   margin-top: 45px;
   margin-bottom: 45px;
 }
-
       /*hero section styles*/
 .hero_section{
   background-color: var(--accent-color);
@@ -48,8 +47,6 @@ h2 {
   margin-bottom: 30px;
   font-weight: bold;
 }
-
-
       /*footer styles*/
 .page-footer{
   background-color: var(--accent-color);
