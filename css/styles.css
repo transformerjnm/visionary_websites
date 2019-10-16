@@ -9,11 +9,15 @@
   --font-color: white;
   --font-color-secondary: black;
 }
-a{
-  color: var(--font-color-secondary);
-}
-.card, .btn-large{
+.card, .btn-large, .btn-small{
     border-radius: 15px;
+}
+.btn-small{
+  color: var(--font-color);
+  background-color: var(--accent-color);
+}
+.btn-small a {
+    color: var(--font-color);
 }
 h2 {
  text-align: center;
