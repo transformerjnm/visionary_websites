@@ -19,6 +19,10 @@
 .btn-small a {
     color: var(--font-color);
 }
+
+.btn-small:hover{
+  background-color: var(--accent-color);
+}
 h2 {
  text-align: center;
  color: var(--accent-color);
