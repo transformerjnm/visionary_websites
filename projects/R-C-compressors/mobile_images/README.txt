@@ -1,1 +1,0 @@
-Only put images optimzed for mobile device in this folder. Desktop images go in the image folder
