@@ -2,12 +2,13 @@
 .page_transition{
 	animation-name: page_transition;
 	animation-iteration-count: 1;
-	animation-duration: 1s;
+	animation-duration: .5s;
 }
 @keyframes page_transition{
 	0%{
 		opacity: 0;
 		transform: scale(0);
+		transform-origin: top;
 	}
 	100%{
 		opacity: 1;
@@ -16,6 +17,15 @@
 }
 /* title animations */
 .fade_in {
+	opacity: 1;
+	animation-name: fade_in_opacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .75s;
+    
+}
+
+.fade_in2{
 	opacity: 1;
 	animation-name: fade_in_opacity;
 	animation-iteration-count: 1;
@@ -60,13 +70,14 @@ video {
 @keyframes slide_in_from_right {
 
 	from {
-		left: 700px;
-		opacity: 0.2;
+		transform: translateX(500px);
+        opacity: 0.2;
+		
 	}
 
 	to {
-		left: 0;
-		opacity: 1;
+		transform: translateX(0px);
+        opacity: 1;
 	}
 
 }
@@ -81,12 +92,12 @@ video {
 @keyframes slide_in_from_left {
 
 	from {
-		left: -700px;
+		transform: translateX(-500px);
 		opacity: 0.2;
 	}
 
 	to {
-		left: 0;
+		transform: translateX(0px);
 		opacity: 1;
 	}
 

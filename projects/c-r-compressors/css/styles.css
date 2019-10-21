@@ -7,434 +7,431 @@ grey-white: rgba(240,240,240,1) #f0f0f0
 black
 */
 :root {
-	--text_color: #f0f0f0;
-	--accent_color: #003478;
-	--accent_color_rgba: rgba(0, 52, 120, .75);
-	--accent_gradient: rgba(0, 52, 120, .5);
-	--alert_color: #b50006;
-	--alert_gradient: rgba(359, 0, 3, .5);
+    --text_color: #f0f0f0;
+    --accent_color: #003478;
+    --accent_color_rgba: rgba(0, 52, 120, .75);
+    --accent_gradient: rgba(0, 52, 120, .5);
+    --alert_color: #b50006;
+    --alert_gradient: rgba(359, 0, 3, .5);
 }
 
 html {
-	box-sizing: border-box;
-	font-size: 14px;
-	overflow-x: hidden;
-	scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 14px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-	margin: 0;
-	background-color: var(--text_color);
+    margin: 0;
+    background-color: var(--text_color);
 }
-
+/*fixes animatios on mobile. due to meta tage device wisth = initail width mobile phone ignore oflow-x hidden on html and body tag*/
+main {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 a {
-	padding: .5rem;
-	text-decoration: none;
-	color: var(--text_color);
+    padding: .5rem;
+    text-decoration: none;
+    color: var(--text_color);
 }
 
 p {
-	line-height: 200%;
+    line-height: 200%;
 }
 
 /*-----navigation*------*/
 nav {
-	height: 12vh;
-	position: fixed;
-	color: var(--text_color);
-	background-color: var(--accent_color_rgba);
-	width: 100vw;
-	z-index: 3;
-	clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
+    height: 12vh;
+    position: fixed;
+    color: var(--text_color);
+    background-color: var(--accent_color_rgba);
+    width: 100vw;
+    z-index: 3;
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 5vw), 0% 100%);
 }
 
 nav ul {
-	display: none;
+    display: none;
 }
 
 
 /*-----mobile nav-----*/
 .mobile_nav {
-	background-color: var(--accent_color_rgba);
-	margin: 0;
-	width: 50vw;
-	height: 88vh;
-	position: fixed;
-	bottom: 0;
-	z-index: 5;
-	transform: translatex(-100%);
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	clip-path: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
+    background-color: var(--accent_color_rgba);
+    margin: 0;
+    width: 50vw;
+    height: 88vh;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    transform: translatex(-100%);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    clip-path: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
 }
-.mobile_nav .logo{
-	height: 2rem;
-	width: auto;
-	padding: 0;
+
+.mobile_nav .logo {
+    height: 2rem;
+    width: auto;
+    padding: 0;
 }
+
 .mobile_nav ul {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: space-around;
-	height: 100%;
-	list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    height: 100%;
+    list-style-type: none;
 }
 
 .mobile_nav a {
-	display: block;
+    display: block;
 }
 
 .mobile_nav_active {
-	transform: translatex(0%);
-	transition-duration: 1s;
+    transform: translatex(0%);
+    transition-duration: 1s;
 }
 
 .mobile_logo_active {
-	min-width: 100vw;
-	min-height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 .mobile_nav_logo {
-	padding: .5rem;
-	height: 100%;
-	z-index: 20;
+    padding: .5rem;
+    height: 100%;
+    z-index: 20;
 }
 
 .line {
-	width: 35px;
-	margin: 6px;
-	min-height: 6px;
-	background-color: var(--text_color);
-	transform: skewX(-25deg);
+    width: 35px;
+    margin: 6px;
+    min-height: 6px;
+    background-color: var(--text_color);
+    transform: skewX(-25deg);
 }
 
 /*-----hero content----*/
 .hero_section {
-	padding: 0;
-	background-image: url("../mobile_images/factory_mobile.jpg");
-	background-size: cover;
-	background-position: center;
-	color: var(--text_color);
-	min-height: 100vh;
+    padding: 0;
+    background-image: url("../mobile_images/factory_mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    color: var(--text_color);
+    min-height: 100vh;
 }
 
 .contact_hero_section {
-	padding: 0;
-	background-image: url("../mobile_images/old_phone_mobile.jpg");
-	background-size: cover;
-	background-position: center;
-	min-height: 100vh;
+    padding: 0;
+    background-image: url("../mobile_images/old_phone_mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .hero_content {
-	text-align: center;
-	margin: auto;
-	width: 100%;
-	position: relative;
-	top: 25vh;
-	line-height: 100%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: 25vh;
+    line-height: 100%;
 }
+
 .hero_content a {
-		position: relative;
-		top: 25vh;
-	}
+    position: relative;
+    top: 25vh;
+}
+
 .hero_content h1 {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 /*-----sections styles-----*/
 section {
-	padding-left: 1rem;
-	padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .wide_skinny {
-	background-color: var(--accent_color);
-	color: var(--text_color);
-	clip-path: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
-	shape-outside: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
-	padding: 5vw 1rem 5vw 1rem;
-	margin-top: -5vw;
-	margin-bottom: -5vw;
+    background-color: var(--accent_color);
+    color: var(--text_color);
+    clip-path: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
+    shape-outside: polygon(0% 0%, 100% 5vw, 100% calc(100% - 5vw), 0% 100%);
+    padding: 5vw 1rem 5vw 1rem;
+    margin-top: -5vw;
+    margin-bottom: -5vw;
 }
 
 .skinny_wide {
-	background-color: var(--accent_color);
-	color: var(--text_color);
-	clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-	shape-outside: polygon(0 5vw, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-	padding: 5vw 1rem 5vw 1rem;
-	margin-top: -5vw;
-	margin-bottom: -5vw;
+    background-color: var(--accent_color);
+    color: var(--text_color);
+    clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+    shape-outside: polygon(0 5vw, 100% 0, 100% 100%, 0 calc(100% - 5vw));
+    padding: 5vw 1rem 5vw 1rem;
+    margin-top: -5vw;
+    margin-bottom: -5vw;
 }
 
 .normal_content {
-	padding-top: 5vw;
-	padding-bottom: 5vw;
-	color: var(--text_color);
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    color: var(--text_color);
 }
-
-/*------custom display layout------*/
-/*flexbox*/
-.flexbox {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
-
-.flex_item {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	color: var(--text_color);
-	border-radius: 5px 15px 5px 15px;
-    box-shadow: black 0px 0px 5px;
-	text-align: center;
-	background-color: var(--accent_color);
-	background-image: linear-gradient(to bottom right, var(--alert_gradient), var(--accent_gradient));
-}
-
 /*--------page sections specifics-------*/
 /*home page*/
-.about {
-	min-height: 50vh;
+
+.services ul {
+	list-style: none;
+	padding: 0;
+	height: 100%;
+}
+.services li {
+	cursor: pointer;
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.service_active{
+	border-bottom: 3px solid var(--alert_color);
+}
+.services p {
+	margin: 3rem;
+}
+.area {
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../mobile_images/city_mobile.jpg);
+    border-bottom: 1px solid var(--accent_color_rgba);
 }
 
 .time {
-	min-height: 50vh;
-	background-size: cover;
-	background-position: center;
-	background-image: url(../mobile_images/welding_repair_mobile.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../mobile_images/welding_repair_mobile.jpg);
 }
-
-.area {
-	min-height: 50vh;
-	background-size: cover;
-	background-position: center;
-	background-image: url(../mobile_images/city_mobile.jpg);
-	border-bottom: 1px solid var(--accent_color_rgba);
+.about {
+    min-height: 50vh;
 }
-
 .contact_button {
-	color: var(--text_color);
-	background-color: var(--alert_color);
-	border-radius: 5px 15px 5px 15px;
-	box-shadow: 3px 3px 10px black;
+    color: var(--text_color);
+    background-color: var(--alert_color);
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 3px 3px 10px black;
 }
 
 /*contact page*/
 .blank_space {
-	height: 425px;
+    height: 425px;
 }
 
 .contact_call {
-	color: var(--text_color);
-	background-color: var(--accent_color);
-	position: absolute;
-	min-height: 10rem;
-	top: 10rem;
-	left: 10vw;
-	width: 80vw;
-	border-radius: 5px 15px 5px 15px;
-	box-shadow: 0 0 10px black;
-	text-align: center;
+    color: var(--text_color);
+    background-color: var(--accent_color);
+    position: absolute;
+    min-height: 10rem;
+    top: 10rem;
+    left: 10vw;
+    width: 80vw;
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
 }
 
 .contact_form {
-	color: var(--text_color);
-	background-color: var(--accent_color);
-	position: absolute;
-	top: 25rem;
-	left: 10vw;
-	width: 80vw;
-	border-radius: 5px 15px 5px 15px;
-	box-shadow: 0 0 10px black;
-	text-align: center;
+    color: var(--text_color);
+    background-color: var(--accent_color);
+    position: absolute;
+    top: 25rem;
+    left: 10vw;
+    width: 80vw;
+    border-radius: 5px 15px 5px 15px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
 }
+
 textarea {
-	width: 100%;
+    width: 100%;
 }
+
 .contact_align {
-	width: 50%;
-	margin: auto;
-	text-align: left;
+    width: 50%;
+    margin: auto;
+    text-align: left;
 }
 
 .contact_align ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 /*-----footer-----*/
 footer {
-	padding-top: 5vw;
-	color: black;
-	position: absolute;
-	width: 100%;
+    padding: 5vw 1rem 0 1rem;
+	/*fixes animatios on mobile. due to meta tage device wisth = initail width mobile phone ignore oflow-x hidden on html and body tag*/
+		overflow-x: hidden;
+    color: black;
+    position: absolute;
+    width: 100%;
 }
 
 footer ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 footer li {
-	line-height: 150%;
-	padding-top: .5rem;
-	padding-bottom: .5rem;
-	position: relative;
+    line-height: 150%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    
 }
 
 footer a {
-	color: black;
+    color: black;
 }
 
 footer span {
-	font-size: .75rem;
-	color: grey;
-	padding: 0;
-	margin: 0;
+    font-size: .75rem;
+    color: grey;
+    padding: 0;
+    margin: 0;
 }
 
 footer span a {
-	font-size: .75rem;
-	color: grey;
+    font-size: .75rem;
+    color: grey;
 }
 
 footer i {
-	color: blue;
-	font-size: 3rem;
+    color: blue;
+    font-size: 3rem;
 }
+
 /*height for y axis spacing adjustment*/
 @media only screen and (min-height: 300px) {
-	.hero_content a {
-		top: 45vh;
-	}
-	.hero_content h1 {
-		font-size: 1.75rem;
-	}
-	.hero_content {
-		line-height: 200%;
-	}
+    .hero_content a {
+        top: 45vh;
+    }
 
-	.mobile_nav li {
-		margin: .5rem;
-	}
+    .hero_content h1 {
+        font-size: 1.75rem;
+    }
+
+    .hero_content {
+        line-height: 200%;
+    }
+
+    .mobile_nav li {
+        margin: .5rem;
+    }
 }
+
 /*tablets and phablets*/
 @media only screen and (min-width: 550px) {
-	html {
-		font-size: 18px;
-	}
-	.hero_content h1 {
-		font-size: 1.75rem;
-	}
-	.grd_col_2 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		padding: 1rem;
-	}
-
-	.grd_item_1 {
-		grid-column-start: 1;
-		grid-column-end: 1;
-	}
-
-	.grd_item_1 h3 {
-		position: relative;
-	}
-
-	.grd_item_1 p {
-		position: relative;
-	}
-
-	.grd_item_2 {
-		grid-column-start: 2;
-		grid-column-end: 2;
-		padding-left: 2rem;
-		position: relative;
-	}
-    
-    .grd_item_2 h3{
-        position: relative;
-    }
-    
-    .grd_item_2 #footer_btn{
-        position: relative;
+    html {
+        font-size: 18px;
     }
 
-	grd_item_3 {
-		grid-column-start: 1;
-		grid-column-end: 2;
-	}
+    .hero_content h1 {
+        font-size: 1.75rem;
+    }
+		/*------custom display layout------*/
+    .grd_col_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem;
+    }
+
+    .grd_item_1 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .grd_item_2 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        padding-left: 2rem;
+    }
+
+    grd_item_3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
+
 /*width desktop*/
 @media only screen and (min-width: 800px) {
-	
-	.hero_section{
-		background-image: url(../images/factory.jpg);
-	}
-	.area{
-		background-image: url(../images/city.jpg);
-	}
-	.time{
-		background-image: url(../images/welding_repair.jpg);
-	}
-	.contact_hero_section {
-		background-image: url(../images/old_phone.jpg);
-	}
-	
-	html {
-		font-size: 20px;
-	}
-	p {
-		line-height: 225%;
-	}
-	.hero_content a {
-		top: 50vh;
-	}
-	.hero_content h1{
-		font-size: 2rem;
-	}
-	.flex_item {
-		overflow: hidden;
-		height: 20vh;
-		width: 15vw;
-		margin: 0;
-	}
 
-	nav ul {
-		margin: 0;
-		padding: 0;
-		padding-left: 1rem;
-		width: 80vw;
-		display: inline;
-	}
+    .hero_section {
+        background-image: url(../images/factory.jpg);
+    }
 
-	nav li {
-		display: inline;
-		height: 3rem;
-		padding: .5rem;
-	}
+    .area {
+        background-image: url(../images/city.jpg);
+    }
 
-	nav .logo {
-		width: 3rem;
-		position: relative;
-		top: 20%;
-	}
+    .time {
+        background-image: url(../images/welding_repair.jpg);
+    }
 
-	.mobile_nav_logo {
-		display: none;
-	}
-	.mobile_nav{
-		display: none;
-	}
+    .contact_hero_section {
+        background-image: url(../images/old_phone.jpg);
+    }
+
+    html {
+        font-size: 20px;
+    }
+
+    p {
+        line-height: 225%;
+    }
+
+    .hero_content a {
+        top: 50vh;
+    }
+
+    .hero_content h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        width: 80vw;
+        display: inline;
+    }
+
+    nav li {
+        display: inline;
+        height: 3rem;
+        padding: .5rem;
+    }
+
+    nav .logo {
+        width: 3rem;
+        position: relative;
+        top: 20%;
+    }
+
+    .mobile_nav_logo {
+        display: none;
+    }
+
+    .mobile_nav {
+        display: none;
+    }
 }
-

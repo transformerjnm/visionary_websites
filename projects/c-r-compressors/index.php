@@ -1,36 +1,28 @@
 <?php require("shared/header.php")?>
 <section class="hero_section" id="hero_id">
-<!-- smoke effect-->
-<video autoplay loop muted id="video">
-    <source src="images/smoke.mp4" type="video/MP4">
-</video>
+	<!-- smoke effect-->
+	<video autoplay loop muted id="video">
+		<source src="images/smoke.mp4" type="video/MP4">
+	</video>
 	<div class="hero_content">
-		<h1 id="title">C&amp;R first time customer free evaluation!</h1>
+		<h1 id="title">C&amp;R first time customer get a free evaluation!</h1>
 		<span><a href="contact.php?service=eva" class="contact_button">Get Free Evaluation</a></span>
 	</div>
 </section>
 <!-- *****SERVICES***** -->
 <section class="wide_skinny services" id="services_id">
-	<div class="flexbox">
-		<div class="flex_item" id="services_animate">
-			<h4>Evaluation</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio praesentium perferendis quae, natus officia sapiente maiores, quas sequi voluptatum ipsa, voluptatem corporis! Corporis asperiores iure, quas in officiis nemo culpa?</p>
+	<div class="grd_col_2">
+		<div class="grd_item_1">
+			<ul>
+				<li><span id="services_evalution" class="services_option service_active">Evalution</span></li>
+				<li><span id="services_maintance" class="services_option">Preventive Maintance</span></li>
+				<li><span id="services_installs" class="services_option">Installs</span></li>
+				<li><span id="services_rebuilds"  class="services_option">Rebuilds</span></li>
+				<li><span id="services_parts"  class="services_option">Parts</span></li>
+			</ul>
 		</div>
-		<div class="flex_item">
-			<h4>Preventive Maintnace</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea cupiditate molestias delectus, nulla labore ex dolores tempore veritatis. Beatae eos expedita sit fugiat fugit inventore illo sunt explicabo, aut iste.</p>
-		</div>
-		<div class="flex_item">
-			<h4>Installs</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quibusdam beatae quod rem, deleniti, porro ea, sapiente officiis ut, neque impedit dolores tempora. Qui magni deleniti dolor fugit, cupiditate culpa!</p>
-		</div>
-		<div class="flex_item">
-			<h4>Rebuilds</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, incidunt molestiae ducimus, explicabo, delectus ratione ad dolor sit aliquid, assumenda sequi cupiditate reprehenderit minus voluptates veniam. Est voluptates maxime eveniet.</p>
-		</div>
-		<div class="flex_item">
-			<h4>Parts</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci iste, quasi earum harum at, doloribus similique ipsam distinctio! Nisi eveniet dolorum tenetur quasi, obcaecati vero error harum molestias enim explicabo?</p>
+		<div class="grd_item_2">
+			<p id="service_description"></p>
 		</div>
 	</div>
 </section>
@@ -39,7 +31,7 @@
 	<div class="grd_col_2">
 		<div class="grd_item_1">
 			<h3 id="header_3">Area</h3>
-			<p id="paragraph">We service Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aliquid illo eveniet ducimus animi dicta ab, vitae voluptates autem accusamus quis, ipsa voluptatem consequuntur. Nostrum consequuntur sed deserunt libero tempore!</p>
+			<p id="paragraph">We gladly service most areas in Georgia.</p>
 		</div>
 		<div class="grd_item_2" id="contact_area">
 			<h3>See if your in our service area.</h3>
@@ -51,11 +43,11 @@
 <section class="normal_content time" id="time_id">
 	<div class="grd_col_2">
 		<div class="grd_item_1" id="i_need_repair">
-		<h3>Is your sytem running right?</h3>
+			<h3>Is your sytem not running right?</h3>
 			<span><a href="contact.php?service=repair" class="contact_button">I Need Repairs</a></span>
 		</div>
 		<div class="grd_item_2" id="emergancy">
-			<h3>24/7 Emergancy Repair</h3>
+			<h3>24/7 Emergency Repair</h3>
 		</div>
 	</div>
 </section>
@@ -64,7 +56,7 @@
 	<div class="grd_col_2">
 		<div class="grd_item_1">
 			<h3 id="who_header">Who We Are</h3>
-			<p id="who_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni facilis optio recusandae eum, omnis iusto. Ratione est, praesentium aspernatur, voluptatem minus pariatur cumque quo facilis omnis libero doloribus tenetur, ea!</p>
+			<p id="who_p">We are a proud family owned business. Passed down through multiple generations our company has survived by treating its customers like family. Our service will always be done to the best of our ability and we strive to build relationships with our customers. </p>
 		</div>
 		<div class="grd_item_2" id="questions">
 			<h3>Have questions about us?</h3>
@@ -73,4 +65,3 @@
 	</div>
 </section>
 <?php include("shared/footer.php")?>
-
