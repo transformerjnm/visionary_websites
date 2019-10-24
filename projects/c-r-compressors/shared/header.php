@@ -16,7 +16,7 @@
 	<meta name="description" content="Free Evaluation for first time customers and 24/7 Emergency Repair. R&C Compressors can handle all your air Compressors needs!" />
 	<link rel="icon" type="image/jpg" href="images/r&c_logo.jpg">
 	<link rel="canonical" href="http://localhost/R-C-compressors/index.php">
-	<title>R&amp;C Compressors</title>
+	<title>C&amp;R Compressors</title>
 </head>
 
 <body>
