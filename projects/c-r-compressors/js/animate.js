@@ -304,15 +304,15 @@ if (nav_active = true) {
 	);
 }
 /*Services active option*/
-let maintnace_description = "Avoid costly catastrophic breakdowns with preventive maintenance. We will carefully maintain of each part to ensure that the reliability of your system is at its peak. Contact us to get the maximum reliability out of your system. ";
+let maintnace_description = "Avoid costly catastrophic breakdowns with preventive maintenance. We will carefully maintain each part to ensure that the reliability of your system is at its peak. Contact us to get the maximum reliability out of your system.";
 
-let install_decritption = "Get state of the art air compressor system installed professionally. By choosing us we ensure that your system is installed correctly to increase reliability, minimize wear, and run efficiently. Start out on the right foot today and contact us about your air compressor install!";
+let install_decritption = "Get a state of the art air compressor system installed professionally. By choosing us we ensure that your system is installed correctly to increase reliability, minimize wear, and run efficiently. Start out on the right foot today and contact us about your air compressor install!";
 
-let rebuild_description = "Got an old air compressor system that needs refurbishing? We can bring life back to your old compressor with a comprehensive rebuild. Save money but not having to replace your entire system. Contact us to restore your system back to its original capability. ";
+let rebuild_description = "Got an old air compressor system that needs refurbishing? We can bring life back to your old compressor with a comprehensive rebuild. Save money by not having to replace your entire system. Contact us to restore your system back to its original capability.";
 
-let parts_description = "Need part to fix your own compressor? Look no farther, we can get you the parts you need! Talk to our professional to find the perfect part for your mission. Contact us today for pricing and availability.";
+let parts_description = "Need parts to fix your own compressor? Look no farther, we can get you the parts you need! Talk to our professional mechanic to find the perfect part for your compressor. Contact us today for pricing and availability.";
 
-let evaluation_description = "A detail analysis of all your system components. We will find current problems and look for signs of extensive wear on components. Then we will make an effective plan to fix your system and a plan for maintenance.";
+let evaluation_description = "A detailed analysis of all your system components. We will find current problems and look for signs of extensive wear on components. Then we will make an effective plan to fix your system and a plan for preventive maintenance.";
 
 let current_description = evaluation_description;
 

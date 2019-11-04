@@ -18,7 +18,7 @@
 					<li><a href="tel:1231231234">Phone: 123-123-1234</a></li>
 					<li><a href="contact.php" class="contact_button" id="footer_btn">Contact</a></li>
 					<li>
-						<i class="fab fa-facebook-square"></i>
+						<a href="https://www.facebook.com/CandRCompressor/" rel="nofollow" target="_blank"><i class="fab fa-facebook-square"></i></a>
 					<li>
 				</ul>
 			</div>

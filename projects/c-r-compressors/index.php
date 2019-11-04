@@ -5,8 +5,8 @@
 		<source src="images/smoke.mp4" type="video/MP4">
 	</video>
 	<div class="hero_content">
-		<h1 id="title">C&amp;R first time customer get a free evaluation!</h1>
-		<span><a href="contact.php?service=eva" class="contact_button">Get Free Evaluation</a></span>
+		<h1 id="title">C&amp;R first time customers get a free evaluation!</h1>
+		<span><a href="contact.php?service=eva" class="contact_button">Get A Free Evaluation</a></span>
 	</div>
 </section>
 <!-- *****SERVICES***** -->
@@ -30,11 +30,11 @@
 <section class="normal_content area" id="area_id">
 	<div class="grd_col_2">
 		<div class="grd_item_1">
-			<h3 id="header_3">Area</h3>
+			<h3 id="header_3">Service Areas</h3>
 			<p id="paragraph">We gladly service most areas in Georgia.</p>
 		</div>
 		<div class="grd_item_2" id="contact_area">
-			<h3>See if your in our service area.</h3>
+			<h3>See if you're in our service area.</h3>
 			<span><a href="contact.php?service=area" class="contact_button">Service area</a></span>
 		</div>
 	</div>
@@ -43,11 +43,11 @@
 <section class="normal_content time" id="time_id">
 	<div class="grd_col_2">
 		<div class="grd_item_1" id="i_need_repair">
-			<h3>Is your sytem not running right?</h3>
+			<h3>Is your system not running right?</h3>
 			<span><a href="contact.php?service=repair" class="contact_button">I Need Repairs</a></span>
 		</div>
 		<div class="grd_item_2" id="emergancy">
-			<h3>24/7 Emergency Repair</h3>
+			<h3>24/7 Emergency Repairs</h3>
 		</div>
 	</div>
 </section>
