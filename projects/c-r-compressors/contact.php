@@ -14,7 +14,7 @@
 				break;
 
 			case "area":
-				$service_msg = "to see if your in our service area.";
+				$service_msg = "to see if you're in our service area.";
 				break;
 
 			case "repair":
@@ -98,7 +98,7 @@
 	</section>
 	<?php
 	/*Subject of email based upon the services they chose*/
-	$subject="R&C Request For ";
+	$subject="C&R Request For ";
 	if( isset( $_POST['submit'] ) ){
 		if( !empty( $_POST['check_list'] ) ){
 			foreach( $_POST['check_list'] as $service ){
