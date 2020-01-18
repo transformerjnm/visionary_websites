@@ -9,6 +9,17 @@
   --font-color: white;
   --font-color-secondary: black;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Cormorant Garamond', serif;
+}
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin: 0;
+}
 .card, .btn-large, .btn-small{
     border-radius: 15px;
 }
@@ -36,10 +47,10 @@ h2 {
   background-color: var(--accent-color);
   padding: 45px;
   clip-path: ellipse(94% 61% at 28% 36%);
-  min-height: 50vh;
+  min-height: 90vh;
 }
 .logo{
-  height: 13vh;
+  height: 10vh;
 }
 .hero_section h1{
   color: var(--font-color);
@@ -51,6 +62,9 @@ h2 {
   margin-bottom: 30px;
   font-weight: bold;
 }
+.hero_section div{
+  margin: 10vh auto;
+}
       /*footer styles*/
 .page-footer{
   background-color: var(--accent-color);
@@ -60,4 +74,10 @@ h2 {
 .page-footer .btn-large{
   background-color: var(--font-color);
   color: var(--accent-color);
+}
+.page-footer li {
+  font-size: 2rem;
+}
+.page-footer a {
+  color: var(--font-color);
 }
